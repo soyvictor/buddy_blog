@@ -1,0 +1,29 @@
+html {
+  font-size: 16px;
+}
+
+#banner {
+  height: 30rem;
+  background-image: url('./images/IMG_2934.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#banner h1 {
+  font-size: 3.75rem;
+  color: black;
+}
+
+.post h2 {
+  font-size: 1.875rem;
+}
+
+.post h3 {
+  font-size: 1.125rem;
+  color: #999999;
+}
