@@ -1,13 +1,35 @@
+/*Basic config*/
+
 html {
   font-size: 16px;
 }
 
+body {
+  background-color: white;
+}
+
+p {
+  min-height: 300px;
+  min-width: 200px;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*Banner*/
 #banner {
-  height: 30rem;
-  background-image: url('./images/IMG_2934.jpeg');
-  background-position: center;
-  background-size: cover;
+  height: 25rem;
+  background-image: url("./images/IMG_2934.jpeg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,15 +37,45 @@ html {
 }
 
 #banner h1 {
-  font-size: 3.75rem;
-  color: black;
+  font-size: 3rem;
 }
 
-.post h2 {
-  font-size: 1.875rem;
+/*blog and post*/
+
+.blog {
+  width: 86%;
+  margin: auto;
 }
 
-.post h3 {
-  font-size: 1.125rem;
-  color: #999999;
+.blog .post {
+  width: 52%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post .image-container {
+  width: 100%;
+}
+
+/* Blog Images */
+
+.images {
+  margin-bottom: 20%;
+}
+
+.images .image-container {
+  width: 50%;
+  display: inline-block;
+
+}
+
+
+
+
+
+/*footer*/
+footer {
+  text-align: center;
 }
